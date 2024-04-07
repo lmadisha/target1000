@@ -1,5 +1,4 @@
 import random
-
 from dice import roll_dice
 from grid import Grid
 from strategy import auto_pick_position
@@ -19,9 +18,6 @@ def run_game(show_debug):
 	score = grid.score_complete_grid()
 	if(show_debug): grid.pretty_print()
 	return score
-
-
-
 
 
 def benchmark(runs):   
